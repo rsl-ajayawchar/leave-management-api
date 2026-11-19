@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: leave-management-api
+  profiles:
+    active: dev
+server:
+  port: 8080
+app:
+  leave:
+    max-reason-length: 500
